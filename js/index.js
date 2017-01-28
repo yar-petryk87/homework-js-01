@@ -8,10 +8,10 @@ function equation(a,b,c) {
     
     var discriminant = (b*b) - (4*a*c);
     
-    var result1 = (-b + Math.sqrt(discriminant))/2*a;
+    var result1 = (-b + Math.sqrt(discriminant))/(2*a);
     var resultFirst = result1.toFixed(3);
     
-    var result2 = (-b - Math.sqrt(discriminant))/2*a;
+    var result2 = (-b - Math.sqrt(discriminant))/(2*a);
     var resultSecond = result2.toFixed(3);
     
     var result3 = -(b/2*a);
